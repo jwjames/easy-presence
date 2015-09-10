@@ -1,0 +1,29 @@
+.user-ball {
+  float: left;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-right: 5px;
+  border: 1px solid #CCC;
+}
+
+.online-bg {
+  background-color: rgba(0, 199, 78, .5);
+  border-color: #00C74E;
+}
+
+.away-bg {
+  background-color: rgba(229, 227, 67, .5);
+  border-color: #E5E343;
+}
+
+.busy-bg {
+  background-color: rgba(236, 129, 80, .5);
+  border-color: #EC8150;
+}
+
+.offline-bg {
+  background-color: rgba(204, 204, 204, .5);
+  border-color: #CCCCCC;
+}
