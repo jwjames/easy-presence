@@ -6,7 +6,7 @@ meteor add jeffrey:easy-presence
 ```
 <br>
 Note: This package has two defaults:<br>
-1. Time of inactivity to set user as away is set automaticly to one minute. <br>
+1. Time of inactivity to set user as away is set automatically to one minute. <br>
 2. User is automatically set as away when window loses focus.
 <br><br>
 
@@ -18,7 +18,7 @@ Add
 ####Html:
 ```javascript
 <template name="userList">
-  {{#each user}}
+  {{#each users}}
     <li>{{> easy_presence}}{{emails.[0].address}}</li>
   {{/each}}
 </template>
