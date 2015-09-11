@@ -1,6 +1,6 @@
 ## Easy-presence
 I took [konecty:user-presence](https://github.com/Konecty/meteor-user-presence) and simplified it so you only need to add one handlebars expression where you want to see the status of that user's presence. <br><br>
-###Add with: 
+### Add with: 
 ```
 meteor add jeffrey:easy-presence
 ```
