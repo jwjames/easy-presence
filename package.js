@@ -22,7 +22,7 @@ Package.onUse(function (api) {
   );
 
   api.use([
-    'konecty:user-presence'
+    'konecty:user-presence@1.2.5'
   ], ['client', 'server']);
 
   api.addFiles([
