@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
 
-  api.imply([
+  api.use([
     'templating',
     'underscore',
     'tracker',
@@ -22,7 +22,6 @@ Package.onUse(function (api) {
   );
 
   api.use([
-    'app:core',
     'konecty:user-presence'
   ], ['client', 'server']);
 
