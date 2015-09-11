@@ -10,12 +10,12 @@ Note: This package has two defaults:<br>
 2. User is automatically set as away when window loses focus.
 <br><br>
 
-##Directions:
+## Directions:
 Add 
 ```{{> easy_presence}}``` in your client-side code. You will see a circle icon showing that user's presence status. See this example: http://user-presence-example.meteor.com/
 
-###Example: 
-####Html:
+### Example: 
+#### Html:
 ```javascript
 <template name="userList">
   {{#each users}}
@@ -24,7 +24,7 @@ Add
 </template>
 ```
 
-####Javascript
+#### Javascript
 ```javascript
 Template.userList.helpers({
   'users': function () {
