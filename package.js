@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jeffrey:easy-presence',
-  version: '0.0.4',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'An incredibly easy user-presence package based on konecty:user-presence',
   // URL to the Git repository containing the source code for this package.
